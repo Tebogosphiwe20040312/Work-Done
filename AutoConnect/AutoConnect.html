@@ -1,0 +1,269 @@
+<!-- @Authors:  TS Jiyane 222467088
+                ST Mokonene 222211423
+                L Molise 2233541471
+                TM Magana 222728566
+                T Sgalelana 223666475-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <title>AutoConnect</title>
+    <link rel="stylesheet" href="AutoConnect stylesheet.css">
+</head>
+
+<body>
+    <section id="Cover">
+        <div class="main">
+            <div class="background">
+                <video id="Car" autoplay loop muted playsinline>
+                    <source src="184734-873923034_small.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="overlay">
+
+            </div>
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">
+                        <span class="ls">Auto</span>Connect
+                    </h2>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#Second">ABOUT</a></li>
+                        <li><a href="#middle-section">PROMO</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="#Third">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="content">
+                <h1><span class="auto-type"></span><span class="auto-type"></span> <span class="auto-type"></span>
+                </h1>
+                <p class="pr">Experience the thrill of driving your dream car with our hassle-free rental service.
+                    <br>Choose from a wide range of vehicles, enjoy flexible rental options, <br>and hit the road in
+                    style.
+                    <br>Unleash your driving experience.<br>Your adventure starts here!
+                </p>
+                <button class="cn"><a href="#Second">Read More</a></button>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["Choose,", "Drive,", "Enjoy"],
+                    typeSpeed: 80,
+                    backSpeed: 100,
+                    loop: true,
+                    showCursor: true
+                });
+            </script>
+            <form action="POST" method="POST" class="form">
+                <h2>Register</h2>
+                <div class="fill_in">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="tel" id="Phone" name="Phone" placeholder="Phone"
+                    required inputmode="numeric" pattern="0\d{9}" title="Enter a valid 10-digit phone number starting with 0">
+                    <input type="email" name="Email" placeholder="Email Address" required>
+                    <input type="password" name="Password" placeholder="Password" required>
+                    <input type="password" name="Confirm Password" placeholder="Confirm Password" required><br>
+                </div>
+                
+                <div class = "Type_of_Purchase">
+                    <select name="Type of Purchase" required>
+                    <option value="">Type of Purchase</option>
+                    <option value="Buy">Buy a Car</option>
+                    <option value="Rent">Rent a Car</option>
+                </select>
+                <br></div>
+                <div class = "sign_up">
+                    <button class="btnn" type="submit"><a href="#">Sign Up</a></button><br>
+                </div>
+                
+                
+                    <p class="link">Already have an account?<br>
+                        <a href="#">Login</a> here
+                    </p>
+                
+                
+
+                <div class="media">
+                    <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://x.com/login" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://mail.google.com/mail" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.skype.com/en/" target="_blank"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </form>
+            <div class="footer">
+                <p>AutoConnect &reg; 2025</p>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </section>
+    <section id="Second">
+        <div id="slideshow">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="1.jpg" alt="First Slide">
+                </div>
+                <div class="slide">
+                    <img src="2.jpg" alt="Second Slide">
+                </div>
+                <div class="slide">
+                    <img src="3.jpg" alt="Third Slide">
+                </div>
+                <div class="slide">
+                    <img src="4.jpg" alt="Fourth Slide">
+                </div>
+            </div>
+        </div>
+        <div class="About">
+            <h2>About Us</h2>
+            <p class="pra">Welcome to AutoConnect! and thank you for visiting! The goal of AutoConnect is<br>to make the
+                car rental or
+                purchase experience as smooth and enjoyable as possible!<br>Whether you are renting a vehicle for a
+                quick
+                weekend getaway, or purchasing a new car,<br>AutoConnect has a fine selection of vehicles in our fleet
+                to
+                choose from.<br>We have a large selection of vehicles! AutoConnect also offers rental vehicles at
+                competitive<br> prices,several rental period options, and exceptional customer service. <br> We are
+                striving to
+                surpassyour expectations in every way possible.<br> Come along for the ride, and see what it's like to
+                take
+                to the road with AutoConnect!<br> Create your own adventures to enjoy the freedom of driving with
+                AutoConnect!</p>
+        </div>
+        <div class="Models">
+            <table class="table">
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Price Range (ZAR)</th>
+                </tr>
+                <tr>
+                    <td>Porsche</td>
+                    <td>911, Cayenne, Panamera</td>
+                    <td>R1,500,000 - R4,000,000</td>
+                </tr>
+                <tr>
+                    <td>BMW</td>
+                    <td>X5, M3, 7 Series</td>
+                    <td>R900,000 - R2,200,000</td>
+                </tr>
+                <tr>
+                    <td>Nissan</td>
+                    <td>Navara Pro 4x, Altima, Rogue</td>
+                    <td>R450,000 - R2,000,000</td>
+                </tr>
+                <tr>
+                    <td>Toyota</td>
+                    <td>Hilux 2.0 VVTi, Hilux 2.8GD-6, Fortuner</td>
+                    <td>R450,000 - R2,000,000</td>
+                </tr>
+                <tr>
+                    <td>Mercedes-Benz</td>
+                    <td>C-Class, G-Wagon, S-Class</td>
+                    <td>R850,000 - R3,500,000</td>
+                </tr>
+                <tr>
+                    <td>Volkswagen</td>
+                    <td>Tiguan R, Golf R, Arteon</td>
+                    <td>R700,000 - R1,300,000</td>
+                </tr>
+                <tr>
+                    <td>Audi</td>
+                    <td>RS5, Q7, A8</td>
+                    <td>R750,000 - R2,300,000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer2">
+            <p>AutoConnect &reg; 2025</p>
+        </div>
+    </section>
+    <script>
+        document.getElementById("Car").playbackRate = 0.8;     </script>
+    <section class="top-section"></section>
+    <section id="middle-section" class="middle-section">
+        <div class="sticky-image1">
+            <img src="lj.jpg" alt="Middle Section Image1">
+        </div>
+        <br>
+        <div class="sticky-image2">
+            <img src="f.jpg" alt="Middle Section Image2">
+        </div>
+        <br>
+        <div class="sticky-image3">
+            <img src="s.jpg" alt="Middle Section Image3">
+        </div>
+    </section>
+    <section class="bottom-section"></section>
+    <section id="Third">
+        <div class="Contact">
+            <div class="ForEnquiries">For Enquiries</div>
+            <div class="ContactUs">
+                <span class="At">Contact Us At:</span>
+            </div>
+        </div>
+        <table class="table2">
+            <tr>
+                <th>Agent</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>TS Jiyane</td>
+                <td>076 489 3865</td>
+                <td><a href="222467088@edu.vut.ac.za">222467088@edu.vut.ac.za</a></td>
+            </tr>
+            <tr>
+                <td>ST Mokonene</td>
+                <td>078 308 7614</td>
+                <td><a href="222211423@edu.vut.ac.za">222211423@edu.vut.ac.za</a></td>
+            </tr>
+            <tr>
+                <td>L Molise</td>
+                <td>068 529 8517</td>
+                <td><a href="2233541471@edu.vut.ac.za">2233541471@edu.vut.ac.za</a></td>
+            </tr>
+            <tr>
+                <td>TM Magana</td>
+                <td>078 693 7926</td>
+                <td><a href="222728566@edu.vut.ac.za">222728566@edu.vut.ac.za</a></td>
+            </tr>
+            <tr>
+                <td>T Sgalelana</td>
+                <td>069 469 8790</td>
+                <td><a href="223666475@edu.vut.ac.za">223666475@edu.vut.ac.za</a></td>
+            </tr>
+        </table>
+        </div>
+        <footer class="copyright">
+            <p>AutoConnect &copy; 2025 All rights reserved</p>
+        </footer>
+
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let table = document.querySelector(".table");
+
+            function checkScroll() {
+                let rect = table.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                    table.classList.add("visible");
+                }
+            }
+
+            window.addEventListener("scroll", checkScroll);
+            checkScroll();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Cover {
+    max-width: 100vw;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100svh;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.background {
+
+    background: linear-gradient(to right, rgba(6, 50, 230, 0.829)50%, rgb(255, 251, 251)50%);
+    z-index: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1490px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+}
+
+.logo {
+    color: white;
+    font-size: 70px;
+    text-shadow: 10px 10px rgba(139, 139, 139, 0.83);
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+    float: left;
+    padding-top: 80px;
+    width: 480px;
+    padding-left: 0px;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.ls {
+    color: rgba(139, 139, 139, 0.83);
+    font-size: 5rem;
+    text-shadow: 10px 10px white;
+}
+
+.logo:first-of-type {
+    animation: appear 6s infinite;
+}
+
+.logo:last-of-type span {
+    animation: slideIn 6s infinite;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.menu {
+    position: relative;
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 300px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+
+ul li a {
+
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover {
+    background: blue;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.footer {
+    color: white;
+    font-size: 30px;
+    padding-top: 650px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.RentalServices h1 {
+    position: absolute;
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-top: -600px;
+    margin-left: 150px;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    animation: appear 6s infinite;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.RentalServices ul {
+    position: absolute;
+    float: left;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: -580px;
+}
+
+.RentalServices ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.SalesServices h1 {
+    position: absolute;
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-top: -600px;
+    margin-left: 1000px;
+    font-size: 3rem;
+    color: black;
+    text-shadow: 2px 2px white;
+    animation: appear 6s infinite;
+}
+
+.SalesServices ul {
+    position: absolute;
+    float: left;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: -580px;
+}
+
+.SalesServices ul li {
+    list-style: none;
+    margin-left: 800px;
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    text-shadow: 2px 2px white;
+}
