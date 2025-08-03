@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript in Head tag</title>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph Changed.";
+        }
+        function changeColor() {
+            document.getElementById("demo").style.color = 'blue';
+        }
+        function fontSize() {
+            document.getElementById("demo").style.fontSize = '30px';
+        }
+        function backgroundColor() {
+            document.getElementById("main").style.backgroundColor = 'yellow';
+        }
+    </script>
+</head>
+
+<body id="main">
+    <h2>Demo JavaScript in Head</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <button type="button" onclick="changeColor()">Color</button>
+    <button type="button" onclick="fontSize()">Font size</button>
+    <button type="button" onclick="backgroundColor()">Background color</button>
+</body>
+
+</html>
