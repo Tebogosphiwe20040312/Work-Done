@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+    <aloeProduct>
+        <product>
+            <productName>Aloe Vara Gel</productName>
+            <prodCategory>WEIGHT_MANAGEMENT</prodCategory>
+            <quantity>0</quantity>
+            <price>190.00</price>
+        </product>
+    </aloeProduct>
+    <aloeProduct>
+        <product>
+            <productName>Forever Garcinia Plus</productName>
+            <prodCategory>WEIGHT_MANAGEMENT</prodCategory>
+            <quantity>19</quantity>
+            <price>388.00</price>
+        </product>
+    </aloeProduct>
+</products>

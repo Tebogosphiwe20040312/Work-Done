@@ -1,0 +1,14 @@
+Create database Test3PetDB;
+use Test3PetDB;
+
+
+create table tblPets (
+PetNo int(4) auto_increment  primary key, 
+PetName varchar(15)  not null,
+PetType varchar(15) not null,
+PetBreed varchar(15) not null,
+PetAge int not null,
+AmountPaid double not null);
+
+
+Alter table tblPets auto_increment = 1001;

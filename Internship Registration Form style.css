@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    justify-content: center;
+    position: fixed;
+}
+.logo{
+    color:red;
+    padding-top: 150px;
+    padding-left: 250px;
+}
+.rdbuttons{
+    padding-left: 635px;
+    padding-top: 5px;
+    display: flex;
+    font-size: 18px;
+}
+.rdbuttons input[type="radio"]{
+    margin-left: 10px;
+    width: 20px;
+    height:18px;
+    accent-color: blue;
+}
+
+.inputs{
+    padding-left: 645px;
+    font-size: 18px;
+    position: absolute;
+    
+}
+.inputs input[type="text"]{
+    width: 200px;
+}
+.inputs select[name="City"]{
+    font-size: 15px;
+}
+.inputs input[type="email"]{
+    width: 250px;
+}
+.inputs input[type="tel"]{
+    width: 200px;
+}
+.inputs input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    accent-color: blue;
+    margin-top: 5px;
+}
+.labels{
+    padding-left: 515px;
+    position: absolute;
+    font-size: 17px;
+}
+.labels label{
+    display: flex;
+    margin-top: -18px;
+    position:relative;
+}

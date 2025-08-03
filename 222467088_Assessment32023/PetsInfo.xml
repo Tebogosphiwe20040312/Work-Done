@@ -1,0 +1,57 @@
+
+<pets>
+   <pet> 
+        <petName>Max</petName>
+        <petType>dog</petType>
+        <petBreed>Greyhound</petBreed>
+        <age>5</age>
+   </pet>
+   <pet> 
+        <petName>Nelly</petName>
+        <petType>cat</petType>
+        <petBreed>Havana Brown</petBreed>
+        <age>21</age>
+   </pet>
+   <pet> 
+        <petName>Danger</petName>
+        <petType>Dog</petType>
+        <petBreed>Chihuahua</petBreed>
+        <age>8</age>
+   </pet>
+   <pet> 
+        <petName>Sisa</petName>
+        <petType>Dog</petType>
+        <petBreed>Poodle</petBreed>
+        <age>2</age>
+   </pet>
+   <pet> 
+        <petName>Lucky</petName>
+        <petType>Cat</petType>
+        <petBreed>Maime Con</petBreed>
+        <age>4</age>
+   </pet>
+    <pet> 
+        <petName>Suzie</petName>
+        <petType>Cat</petType>
+        <petBreed>Persian</petBreed>
+        <age>3</age>
+   </pet>
+    <pet> 
+        <petName>Mooler</petName>
+        <petType>Dog</petType>
+        <petBreed>Germany Shepherd</petBreed>
+        <age>9</age>
+   </pet>
+   <pet> 
+        <petName>Popie</petName>
+        <petType>Dog</petType>
+        <petBreed>Bulldog</petBreed>
+        <age>1</age>
+   </pet>
+   <pet> 
+        <petName>Anza</petName>
+        <petType>Cat</petType>
+        <petBreed>Pixie-Bod</petBreed>
+        <age>8</age>
+   </pet>	
+   </pets>
